@@ -1,0 +1,73 @@
+body{
+    width: 70%;
+    margin: auto;
+    
+}
+.cont{
+padding: 5px;
+display: flex;
+flex-direction: column;
+border: #333333 2px solid;
+background-color: #f0efef;
+direction: rtl; 
+}
+.head{
+flex: 1;
+color: #ffffff;
+background-color: #000040;
+font-size: 2em;
+border: #333333 2px solid;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 5px;
+}
+.source{
+    flex: 1;
+    color: #fff;
+    margin-top:0;
+    margin-bottom:0;  
+
+}
+.snip{
+    flex: 1;      
+} 
+.url{
+    flex: 1;
+
+}
+.artPhoto{
+    width: 400px;
+    height: 200px;
+    align-self: center;
+    background-color: #c9c9c9;
+    background-image: url("img-bg.jpeg");
+    background-blend-mode: multiply ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #000040;
+    border-radius: 10px;
+}
+.fb-like{
+/*transition: padding 0.1s linear 0s;*/
+display: inline-block;
+line-height: 32px;
+margin: 0;
+padding: 0 5px;
+-webkit-box-flex: 1;
+-moz-box-flex: 1;
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
+}
+.date{
+    padding-top:0;
+    flex: 2;
+}
+.source{
+flex: 4;
+flex-wrap: wrap;
+    padding-top:0;
+}
+.main{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
