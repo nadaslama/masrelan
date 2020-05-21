@@ -1,7 +1,7 @@
 let data;
 var url = 'https://newsapi.org/v2/top-headlines?' +
           'country=eg&' +
-          'apiKey=83ff73b3699d4c99a050b1a242ee2e73';
+          'apiKey=c1dec5b2b0324bf28b17733de5da28ed';
 var req = new Request(url);
 fetch(req)
     .then(function(response) {
